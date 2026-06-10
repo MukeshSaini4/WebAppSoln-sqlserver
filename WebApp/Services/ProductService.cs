@@ -7,10 +7,10 @@ namespace WebApp.Services
     // This service will interact with our Product data in the SQL database
     public class ProductService
     {
-        private static string db_source = "";
-        private static string db_user = "";
-        private static string db_password = "";
-        private static string db_database = "";
+        private static string db_source = "sqlserver.webapp.local";
+        private static string db_user = "sa";
+        private static string db_password = "Password@123";
+        private static string db_database = "ProductDB";
 
         private SqlConnection GetConnection()
         {
